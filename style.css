@@ -30,13 +30,14 @@ body{
     margin: 0;
 }
 #containerCard{
+  height: 90vh;
      display: flex;
      justify-content: space-evenly;
      align-items: center;
      flex-wrap: wrap;
  }
 .card {
-    width: 15vw;
+    width: 22vw;
     height: 35vh;
 
   }
@@ -74,10 +75,10 @@ body{
   
   .card-back {
     background-color: #3498db; 
-    transform: rotateY(180deg);
+    transform: rotateX(180deg);
   }
   .flipped {
-    transform: rotateY(180deg);
+    transform: rotateX(180deg);
   }
   
   
